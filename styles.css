@@ -18,7 +18,6 @@ body{
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
   overflow: hidden;
-  z-index: 0;
 
 }
 
@@ -82,7 +81,7 @@ body{
   position: relative;
   height: 100vh;
   /* top: 400px; */
-  z-index: 0;
+  z-index: -1;
 }
 
 #line {
@@ -128,8 +127,11 @@ div{
 
 #text{
   position: relative;
-  bottom: 1500px;
+  bottom: 1400px;
   left: 600px;
-  width: 200px;
-  z-index: -1;
+  width: 450px;
+  font-size: 50px;
+  color: white;
+
+
 }
