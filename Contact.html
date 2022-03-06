@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my contact details</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav class='navbar'>
+      <div class="maintext">Space Analytics</div>
+      <div class = 'navlinks'>
+        <ul>
+          <li><a href='index.html'>Home</a></li>
+          <li><a href='#'>About</a></li>
+          <li><a href='Pricing.html'>Pricing</a></li>
+          <li><a href='Contact.html'>Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <h4>Want to get in touch?</h4>
+    <hr>
+    <form action="mailto:eloisehat1@gmail.com" method = "post" enctype = "text/plain">
+      <label for="fname">First name:</label><br>
+      <input type="text" id = "fname" name = "fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id = "lname" name = "lname"><br>
+
+      <label for="telnum">Phone number:</label><br>
+      <input type="tel" id = "telnum" name = "telnum" value = "+44"><br>
+
+      <label for="email">Your email:</label><br>
+      <input type="email" id = "email" name = "email"><br>
+
+      <label for="reason">Reason for contacting:</label><br>
+      <select name="reason"  id="reason">
+        <option value="a fight">a fight</option>
+        <option value="y not">corporate</option>
+        <option value="money">I owe you money</option>
+      </select><br><br>
+
+      <label for = "message">Your message:</label><br>
+      <textarea name="name" id = "message" rows="10" cols="30"></textarea><br><br>
+
+      <input type="submit" value = "Submit!">
+      <hr>
+    </form>
+  </body>
+</html>
